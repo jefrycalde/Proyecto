@@ -1,0 +1,442 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+*, *:before, *:after
+{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+*
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img
+{
+    width: 100%;
+}
+
+.title
+{
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.title span
+{
+    color: #880000;
+}
+
+.navbar-brand {
+    height: 0px;
+}
+
+table
+{
+    margin: 25px 0px;
+}
+
+#errmsg
+{
+    font-size: 15px;
+    color: red;
+}
+
+table thead
+{
+    background-color: #CCC;
+}
+
+table th{
+  vertical-align:middle !important;
+}
+
+.table-bordered {
+    border: 1px solid #c6c6cb !important;
+}
+
+table img
+{
+    width: 30px;
+}
+
+.tot {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.btn-yellow
+{
+    background-color: #666;
+    color: white;
+}
+
+.btn-yellow:hover
+{
+    color: #FFF;
+    text-shadow:0px 0px 1px #FFF;
+}
+
+.bgHR
+{
+    background-color: #3F68A8;
+    border-color: #0A1B63;
+    color: #FFF;
+}
+
+i
+{
+    margin:0px 5px;
+}
+
+/*****************************************
+        HEADER
+*****************************************/
+
+.navbar-default
+{
+    border-color: transparent;
+    background-color: #fff;
+    box-shadow:         0px 3px 13px 0px rgba(50, 50, 50, 0.1);
+}
+
+/*.navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}*/
+
+.nav>li>a{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .navbar-header > a
+{
+    padding: 0;
+}
+.navbar-brand>img {
+    margin-left: 50px;
+
+}
+body {
+    /*padding-top: 30px;*/
+}
+
+header img
+{
+    width: 25%;
+}
+
+
+/*********************************************************
+        LOGIN SECTION
+*********************************************************/
+.boxLogin
+{
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 40%;
+}
+
+.boxLogin img
+{
+    margin: 20px auto;
+}
+
+.boxLogin form
+{
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #333;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: left;
+    width: 90%;
+}
+
+.alert
+{
+    padding: 8px 15px;
+}
+
+.btncobrar
+{
+    margin: : 50px !important;
+}
+
+/*********************************************************
+        BOX CONTAINER
+*********************************************************/
+.box
+{
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px #333;
+    /*margin: 20px 0px;*/
+    /*padding: 20px;*/
+}
+
+.btnTitle .btn
+{
+    margin: 8% 0;
+}
+
+.bgH
+{
+    background-color: #CCC;
+}
+
+.bg-2
+{
+    background-color: #EEE;
+    color: #333;
+    font-weight: bold;
+}
+
+.titleMonto
+{
+    margin-bottom: 20px;
+    text-align: left;
+    overflow: auto;
+}
+
+.listMD
+{
+    overflow: auto;
+}
+
+.listMD:hover
+{
+    background-color: #EEE;
+    color: #333;
+}
+
+.cy
+{
+    color: #0D4F8B;
+    text-align: right;
+}
+
+#base .search
+{
+    margin: 20px 0px;
+}
+
+
+
+/*********************************************************
+        FOOTER
+*********************************************************/
+
+.footer2
+{
+    border-top: 1px solid #2c6589;
+    text-align: center;
+}
+
+/*********************************************************
+        POPOVER
+*********************************************************/
+.popover ul
+{
+    padding: 5px 15px;
+    text-align: justify;
+}
+
+/*********************************************************
+        TABLE DOWN SHOW
+*********************************************************/
+.pestana
+{
+    width: 150px;
+    background-color: #fcf8e3;
+    cursor: pointer;
+}
+/*********************************************************
+        Token
+*********************************************************/
+.token
+{
+    width: 300px;
+    word-wrap: break-word;
+}
+/*********************************************************
+        Tablas
+*********************************************************/
+.mensajes tr:first-child
+{
+    color: white;
+    background: #2e6da4;
+}
+.comentarios tr:first-child
+{
+    color: white;
+    background: #2e6da4;
+}
+.editar{
+    cursor: cell;
+}
+
+.editarC{
+    cursor: cell;
+    background: #f98383;
+}
+
+.editarCodigo{
+     cursor: cell;
+     background: #f98383;
+}
+
+.editarCodigo1{
+    cursor: cell;
+    background: #f98383;
+}
+
+.editarC1{
+    cursor: cell;
+    background: #f98383;
+}
+
+.edicion{
+    background: #FFFFFF;
+}
+
+/*********************************************************
+        Modal
+*********************************************************/
+.modal-header {
+  padding:9px 15px;
+  border-bottom:1px solid #eee;
+  background-color: #3F68A8;
+  /*-webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;*/
+  color: #FFF;
+}
+.modal-body {
+  /*font-size: 1.2em;*/
+  overflow: hidden;
+}
+/*********************************************************
+        Overlay
+*********************************************************/
+.overlay {
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color:#000;
+    opacity:0.5;
+    z-index:1001;
+    display: none;
+}
+.overlay-message{
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width:300px;
+    height:100px;
+    /*background-color:#fff;*/
+    opacity:1;
+    z-index:1002;
+    display: none;
+}
+.overlay-message img{
+    width: 100%;
+    vertical-align: middle;
+}
+/*********************************************************
+        ProgressBar
+*********************************************************/
+.progress{
+    display: none;
+}
+/*********************************************************
+        Categorias
+*********************************************************/
+.scrolling {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.compact {
+    margin: 0px;
+}
+.bordered {
+    border: 1px solid black;
+}
+/*********************************************************
+        Blink Blink
+*********************************************************/
+@keyframes blink {
+    0% { background: #D54; }
+    50% { background: #FCC; }
+    100% { background: #D54; }
+}
+@keyframes blink2 {
+    0% { background: #dd9244; }
+    50% { background: #e4e758; }
+    100% { background: #dd9244; }
+}
+/*@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}*/
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    /*-webkit-animation: blink 1s step-start 0s infinite;*/
+}
+.blink2 {
+    animation: blink2 1s step-start 0s infinite;
+    /*-webkit-animation: blink 1s step-start 0s infinite;*/
+}
+/* Fix */
+.ui-datepicker{ z-index: 9999 !important;}
+.aie {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 13px;
+}
+
+
+.tabla-warning{
+  background-color: #f98383;
+}
+
+.max-width-100{
+  max-width: 100px !important;
+}
+
+
+.total{
+  /*font-weight:bold;*/
+  font-size: 20px;
+}
+
+a.nolink{
+	pointer-events: none;
+	cursor: default;
+}
+
+.btn-negro{
+  background: rgba(76,76,76,1);
+background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+  color: #ffffff;
+}
+
+.btn-negro:hover{
+  color: #bce0ee;
+}
+
+.sin-margen{
+  margin: 0;
+  padding: 0;
+}
